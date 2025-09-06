@@ -34,4 +34,26 @@ We want to fit a line:
 1. Error Function (MSE)
 
 We use Mean Squared Error (MSE) to measure how good our line is:
-MSE(m,b)=n1​i=1∑n​(yi​−(mxi​+b))2
+
+<img width="437" height="116" alt="image" src="https://github.com/user-attachments/assets/640a4d6b-0d2f-4409-ae8a-6668bd5ddb05" />
+
+2. Gradients
+
+To minimize error, we compute derivatives:
+
+For slope m:
+<img width="548" height="130" alt="image" src="https://github.com/user-attachments/assets/a89556e7-f9c3-4b9e-9a4f-4e99e9fcc4d5" />
+
+For intercept b:
+<img width="499" height="123" alt="image" src="https://github.com/user-attachments/assets/c59e6eee-9b5c-4b07-9a4f-b1e6a316eaef" />
+
+3. Update Rules
+
+Using gradient descent, update m and b:
+<img width="345" height="151" alt="image" src="https://github.com/user-attachments/assets/5ebcb7b0-a05a-4f96-a4b8-1872928bb69e" />
+
+Where L is the learning rate.
+
+
+
+
