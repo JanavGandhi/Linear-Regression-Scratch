@@ -14,6 +14,8 @@ Method: Gradient Descent optimization.
 
 Output: Fitted line plotted alongside data points.
 
+Dataset: https://www.kaggle.com/datasets/andonians/random-linear-regression
+
 ### ⚙️ How It Works
 
 Initialize slope m and intercept b as 0.
