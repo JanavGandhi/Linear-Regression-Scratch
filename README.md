@@ -1,6 +1,6 @@
 # Linear-Regression-Scratch
 
-##📌 Project Overview
+## 📌 Project Overview
 
 This project implements Linear Regression from scratch using Python and Gradient Descent — without relying on machine learning libraries like scikit-learn.
 
@@ -14,7 +14,7 @@ Method: Gradient Descent optimization.
 
 Output: Fitted line plotted alongside data points.
 
-###⚙️ How It Works
+### ⚙️ How It Works
 
 Initialize slope m and intercept b as 0.
 
@@ -25,19 +25,19 @@ Use gradient descent to iteratively update m and b.
 After training, plot the best-fit line.
 
 
-###🧮 Math Behind Linear Regression
+### 🧮 Math Behind Linear Regression
 
 We want to fit a line:<br>
 
 <img width="255" height="69" alt="image" src="https://github.com/user-attachments/assets/394621b0-9769-4d1e-ae01-ff903cde4d2d" />
 
-####1. Error Function (MSE)
+#### 1. Error Function (MSE)
 
 We use Mean Squared Error (MSE) to measure how good our line is:<br>
 
 <img width="437" height="116" alt="image" src="https://github.com/user-attachments/assets/640a4d6b-0d2f-4409-ae8a-6668bd5ddb05" />
 
-####2. Gradients
+#### 2. Gradients
 
 To minimize error, we compute derivatives:
 
@@ -49,7 +49,7 @@ For intercept b:<br>
 <br>
 <img width="499" height="123" alt="image" src="https://github.com/user-attachments/assets/c59e6eee-9b5c-4b07-9a4f-b1e6a316eaef" />
 <br>
-####3. Update Rules
+#### 3. Update Rules
 
 Using gradient descent, update m and b:<br>
 <br>
