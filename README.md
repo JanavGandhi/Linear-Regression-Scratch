@@ -27,13 +27,13 @@ After training, plot the best-fit line.
 
 🧮 Math Behind Linear Regression
 
-We want to fit a line:
+We want to fit a line:<br>
 
 <img width="255" height="69" alt="image" src="https://github.com/user-attachments/assets/394621b0-9769-4d1e-ae01-ff903cde4d2d" />
 
 1. Error Function (MSE)
 
-We use Mean Squared Error (MSE) to measure how good our line is:
+We use Mean Squared Error (MSE) to measure how good our line is:<br>
 
 <img width="437" height="116" alt="image" src="https://github.com/user-attachments/assets/640a4d6b-0d2f-4409-ae8a-6668bd5ddb05" />
 
@@ -41,15 +41,15 @@ We use Mean Squared Error (MSE) to measure how good our line is:
 
 To minimize error, we compute derivatives:
 
-For slope m:
+For slope m:<br>
 <img width="548" height="130" alt="image" src="https://github.com/user-attachments/assets/a89556e7-f9c3-4b9e-9a4f-4e99e9fcc4d5" />
 
-For intercept b:
+For intercept b:<br>
 <img width="499" height="123" alt="image" src="https://github.com/user-attachments/assets/c59e6eee-9b5c-4b07-9a4f-b1e6a316eaef" />
 
 3. Update Rules
 
-Using gradient descent, update m and b:
+Using gradient descent, update m and b:<br>
 <img width="345" height="151" alt="image" src="https://github.com/user-attachments/assets/5ebcb7b0-a05a-4f96-a4b8-1872928bb69e" />
 
 Where L is the learning rate.
