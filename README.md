@@ -29,7 +29,7 @@ After training, plot the best-fit line.
 
 We want to fit a line:
 
-𝑦=𝑚𝑥+𝑏
+<img width="255" height="69" alt="image" src="https://github.com/user-attachments/assets/394621b0-9769-4d1e-ae01-ff903cde4d2d" />
 
 1. Error Function (MSE)
 
